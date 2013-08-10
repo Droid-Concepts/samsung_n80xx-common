@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     GalaxyNoteTabSettings \
     TVOutDummy
 
+# Droid Concepts bootanimation...Credit JaeKar
+PRODUCT_COPY_FILES +=  \
+    vendor/Droid_Concepts/prebuilt/common/media/tablet/bootanimation.zip:system/media/bootanimation.zip
+
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
